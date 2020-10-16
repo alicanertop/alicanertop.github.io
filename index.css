@@ -1,0 +1,19 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color:white;
+}
+div{
+    min-width: 100%;
+    text-align: center;
+    font-size: 55px;
+}
+div +div{
+    margin-top:50px;
+}
