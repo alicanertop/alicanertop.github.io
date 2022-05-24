@@ -10,11 +10,11 @@ body{
     color:white;
     overflow:hidden;
 }
-div {
+div.nameSurname {
     min-width: 100%;
     text-align: center;
     font-size: 55px;
 }
-div + div{
+div.hello {
     margin-top:50px;
 }
